@@ -10,6 +10,7 @@ I'm Òscar Canales, a videogame development student at [CITM](https://www.citm.u
 
 ### Contact Information
 [GitHub](https://github.com/Osvak)
+
 [Twitter](https://twitter.com/CEOscar_)
 
 ## Links and References
