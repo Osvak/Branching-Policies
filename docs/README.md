@@ -122,7 +122,7 @@ In the Pull Request tab you will find all the information abot the request, firs
 - Teams need to trust each other, if not, this model I wouldn't recommend this model
 - All the commits are based on the use of Feature Flags*
 
-`* Flags that allow you to enable or disable a new feature, often used to avoid conflicts when merging.`
+`* Feature Flags that allow you to enable or disable a new feature, often used to avoid conflicts when merging.`
 
 ## GitHub Flow (Feature Branching)
 
