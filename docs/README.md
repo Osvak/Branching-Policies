@@ -115,11 +115,13 @@ In the Pull Request tab you will find all the information abot the request, firs
 
 # Most used Branching Models
 
-## Single Branch
+## Single Branch (Master-only Flow)
 ![Single](images/model1.png)
 
 - Develpment and Production all it's in the Master branch
 - Teams need to trust each other, if not, this model I wouldn't recommend this model
+- Simple
+- Agile
 - All the commits are based on the use of Feature Flags*
 
 `* Feature Flags that allow you to enable or disable a new feature, often used to avoid conflicts when merging.`
@@ -135,20 +137,71 @@ In the Pull Request tab you will find all the information abot the request, firs
 - Works very well with Continuous Deployement*
 - Clean Commit History
 
-`* Continuous Deployement`
+`* Continuous Deployement is a software release process that uses automated testing to validate if changes to a codebase are correct and stable for immediate autonomous deployment to a production environment.`
 
 ## Git Flow
 ![Git](images/model3.png)
+
+- Every environment has its own branch, Development has the Feature branches, Pre-Production has the Develop branch and Production is done in the Release branch
+- Has many branches Master + Develop + Feature Branch + Release Branch + Hotfix Branch
+- Complex
+- Great for release-based workflow 
+- The most famous model
+- Not recommended for small projects
+- Messy Commit History
 
 
 ## Release Flow
 ![Release](images/model4.png)
 
+- Develop environment is done in the Topic branch and Production in the Releases branch
+- System developed by Microsoft
+- Topics are like mini features 
+- Releases every 3 weeks, so topics done in the day 1 aren't added to production until 3 weeks later
+- Model used to manage massive development teams
+- In case of a hotfix, it can be integrated to Master and then a special deploy can be done to the Releases branch
+
+Microsoft has stated that they do that because their teams in a day can integrate 200 pull requests and every release (3 weeks) they deploy 3000 pull requests.
+
 
 ## GitLab Flow
 ![GitLab](images/model5.png)
 
+- Development is managed in Feature/Hotfix branch, Pre-Production and Production in their own branches
+- Similar to GitHub Flow at first sight, but more complex when you dive into it
+- Not as Agile as other methods
+- When a feature arrives to production its more reliable
+- Recommended to projects where you can't allow yourselft to fail, a good example could be a bank software, where a bug could cause people losing money 
+- In case of a hotfix, it can be integrated to production by cherry-picking
+- Forbidden commit in master directly
+
 ## Trunk-Based Development
 ![Trunk](images/model6.png)
+
+- The Development can be done in the Feature branches, but also in the Master. Production is usually done in Master, but sometimes you can have a Releases branch 
+- Similar to GitHub Flow, but you first commit a feature to Master and then it can be deployed, while in GitHub flow the deploy is done in the Feature branch
+- Master branch can develop with the use of Feature Flags, as seen in the Single Branch Flow
+- Release branches can be used when you are doing a deployment, but aslo want to continue the development, for example when deploying to a mobile store the approval process can take some days or even weeks, you want to continue the development, so you add a Release branch.
+- Master is always deployable
+
+# Conclusion
+
+To sum up everything that has been stated so far I would say that each model has its application. 
+But my recommendation for the Project 2 subject would be to use one of this 3:
+
+- **Single Branch:** You probably already used it in Project 1, Development and other subjects in the degree, but maybe now you can use it at its true potential. I would focus on the idea of using Feature Flags so the everyone can work at the same time without steping on other people work.
+- 
+- **GitHub Flow:** It's easier to manage than a Single Branch flow, and also is a great introduction to branching for the first time. The ability to isolate the work can be also useful so you don't have to worry about Feature Flags.
+
+- **Trunk-Based Development:** For this Flow I would repeat the same advantages from GitHub flow, I would say it's a matter of preference, if you want to deploy from the Features Branch (GitHub Flow) or from Master branch (Trunk-Based Development)
+
+# References
+
+- [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- [Main branch information](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies-overview?view=azure-devops)
+- [Explanation of branching use](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+- [Concept explanation](https://www.atlassian.com/continuous-delivery/continuous-deployment#:~:text=Continuous%20Deployment%20(CD)%20is%20a,cycle%20has%20evolved%20over%20time.)
+- [Branch models (Spanish)](https://www.youtube.com/playlist?list=PLZVwXPbHD1KM5oLAmhz-HHRIMhaOEXku5)
+- [Creative Branching Models for Multiple Release Streams](https://www.youtube.com/watch?v=bCU_D7EHqLg&t=1563s)
 
 Go [Up](https://osvak.github.io/Branching-Policies/)
