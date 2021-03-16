@@ -118,7 +118,7 @@ In the Pull Request tab you will find all the information abot the request, firs
 ## Single Branch
 ![Single](images/model1.png)
 
-- Develpment and Production all it's in the master branch
+- Develpment and Production all it's in the Master branch
 - Teams need to trust each other, if not, this model I wouldn't recommend this model
 - All the commits are based on the use of Feature Flags*
 
@@ -128,6 +128,14 @@ In the Pull Request tab you will find all the information abot the request, firs
 
 ![GitHub](images/model2.png)
 
+- Development, Production and Pre-Production environment are found in the Feature branch
+- Everything is done in the Feature branch, even deployment, in case of a bug the Master branch can be used.
+- Production is also done in the Master branch.
+- Master is allways deployable and acts like a safety measure
+- Works very well with Continuous Deployement*
+- Clean Commit History
+
+`* Continuous Deployement`
 
 ## Git Flow
 ![Git](images/model3.png)
