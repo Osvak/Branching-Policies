@@ -1,13 +1,23 @@
 ![](images/branch1.png)
 
 **Branching** is the term used to describe the idea of **deviating** from the default branch.
+In computer science  means you diverge from the main line of development and continue to do work without messing with that main line. 
+In many version control software this is an expensive process, often requiring you to create a new copy of your source code directory, which can take a long time for large projects.
+
+But in Git this process is incredibly lightweight, making branching operations nearly instantaneous, giving the ability to switch between branches just as fast.
+This way people that use Git branch and merge more often, even more than once a day.
+
 Specificaly I'll to focus on project branching with [**GitHub**](https://github.com/).
 
 Here I will explain *why* is useful, *when* you should implement it, and *how* you can do it using GitHub.
 
-I'm also going to introduce you to some Branching models and compare their pros and cons. 
+I'm also going to introduce you to some Branching models and compare them. 
 
-# Why
+# Why ?
+
+When starting using VCS people usually starts by commiting all the changes in main, and using only this branch. This can look like a good idea, but as you develop bigger and bigger projects, you will face some conflicts, usually when working with other people. I'm not saying that you shoudn't use Single Branch Flow, it has it's own public, and sometimes even it's used in small group projects, I will explain more about the most used models below.
+
+What I mean is that, understanding and mastering this feature gives you a powerful and unique tool and can entirely change the way that you develop, and you should lean as soon as possible, so in the future you can know when it's necessary or not. 
 
 ### Pros
 
@@ -23,7 +33,7 @@ I'm also going to introduce you to some Branching models and compare their pros 
 
 - For very small projects it makes the process more complicated
 
-# When
+# When ?
 
 It is always **recommended** to use a branch strategy even if the project is very small, due to all the advantages it has compared to the small amount of cons.
 
@@ -36,7 +46,7 @@ If you are not sure if you need a new branch, create one anyway, because it's ea
 So, to sum up, **create a branch when you are going to work in something new.**
 
 
-# How
+# How ?
 
 Branches don't generate copies of the files from the source, they use commit history information to recreate the files of a branch when you work on it, this concept makes it easier to switch between branches at any moment.
 
@@ -108,6 +118,11 @@ In the Pull Request tab you will find all the information abot the request, firs
 ## Single Branch
 ![Single](images/model1.png)
 
+- Develpment and Production all it's in the master branch
+- Teams need to trust each other, if not, this model I wouldn't recommend this model
+- All the commits are based on the use of Feature Flags*
+
+`* Flags that allow you to enable or disable a new feature, often used to avoid conflicts when merging.`
 
 ## GitHub Flow (Feature Branching)
 
