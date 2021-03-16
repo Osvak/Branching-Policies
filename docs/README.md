@@ -113,6 +113,8 @@ In the Pull Request tab you will find all the information abot the request, firs
 
 ## Git Flow
 
+## Continuous Delivery Flow
+
 ## Release Flow
 
 ## GitLab Flow
