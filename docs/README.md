@@ -9,7 +9,7 @@ Here I will explain *why* is useful, *when* you should implement it, and *how* y
 
 I'm also going to introduce you to some Branching models and compare their pros and cons. 
 
-## Why
+# Why
 
 ### Pros
 
@@ -25,7 +25,7 @@ I'm also going to introduce you to some Branching models and compare their pros 
 
 - For very small projects it makes the process more complicated
 
-## When
+# When
 
 It is always **recommended** to use a branch strategy even if the project is very small, due to all the advantages it has compared to the small amount of cons.
 
@@ -38,11 +38,11 @@ If you are not sure if you need a new branch, create one anyway, because it's ea
 So, to sum up, **create a branch when you are going to work in something new.**
 
 
-## How
+# How
 
 Branches don't generate copies of the files from the source, they use commit history information to recreate the files of a branch when you work on it, this concept makes it easier to switch between branches at any moment.
 
-### Step By Step Process
+## Step By Step Process
 
 **1. Open the branch selector**
 
@@ -105,7 +105,19 @@ In the Pull Request tab you will find all the information abot the request, firs
 
 ![Step8](images/git8.png)
 
-## Most used Branching Models
+# Most used Branching Models
+
+## Single Branch
+
+## GitHub Flow (Feature Branching)
+
+## Git Flow
+
+## Release Flow
+
+## GitLab Flow
+
+## Trunk-Based Development
 
 
 Go [Up](https://osvak.github.io/Branching-Policies/)
