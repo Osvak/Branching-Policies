@@ -28,10 +28,12 @@ What I mean is that, understanding and mastering this feature gives you a powerf
 - Ensures that a change to a branch must be reviewed, even selecting how many people must review it before the commit gets implemented
 - In Git branches don't generate additional copies of the files when they are created, so they are cheap to create.
 - Ability to share branches without having to merge the changes into the main project
+- More Agile workflow
 
 ### Cons
 
 - For very small projects it makes the process more complicated
+- There isn't a "one fits all" Flow model, each one has its advantages and disadvantages
 
 # When ?
 
@@ -190,7 +192,7 @@ To sum up everything that has been stated so far I would say that each model has
 But my recommendation for the Project 2 subject would be to use one of this 3:
 
 - **Single Branch:** You probably already used it in Project 1, Development and other subjects in the degree, but maybe now you can use it at its true potential. I would focus on the idea of using Feature Flags so the everyone can work at the same time without steping on other people work.
-- 
+
 - **GitHub Flow:** It's easier to manage than a Single Branch flow, and also is a great introduction to branching for the first time. The ability to isolate the work can be also useful so you don't have to worry about Feature Flags.
 
 - **Trunk-Based Development:** For this Flow I would repeat the same advantages from GitHub flow, I would say it's a matter of preference, if you want to deploy from the Features Branch (GitHub Flow) or from Master branch (Trunk-Based Development)
