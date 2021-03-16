@@ -196,6 +196,7 @@ But my recommendation for the Project 2 subject would be to use one of this 3:
 - **Trunk-Based Development:** For this Flow I would repeat the same advantages from GitHub flow, I would say it's a matter of preference, if you want to deploy from the Features Branch (GitHub Flow) or from Master branch (Trunk-Based Development)
 
 # References
+- [Class presentation]() in PDF
 
 - [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - [Main branch information](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies-overview?view=azure-devops)
