@@ -1,5 +1,3 @@
-## Introduction
-
 ![](images/branch1.png)
 
 **Branching** is the term used to describe the idea of **deviating** from the default branch.
@@ -108,18 +106,26 @@ In the Pull Request tab you will find all the information abot the request, firs
 # Most used Branching Models
 
 ## Single Branch
+![Single](images/model1.png)
+
 
 ## GitHub Flow (Feature Branching)
 
-## Git Flow
+![GitHub](images/model2.png)
 
-## Continuous Delivery Flow
+
+## Git Flow
+![Git](images/model3.png)
+
 
 ## Release Flow
+![Release](images/model4.png)
+
 
 ## GitLab Flow
+![GitLab](images/model5.png)
 
 ## Trunk-Based Development
-
+![Trunk](images/model6.png)
 
 Go [Up](https://osvak.github.io/Branching-Policies/)
