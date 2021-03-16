@@ -1,6 +1,6 @@
 ## Introduction
 
-![](https://github.com/Osvak/Branching-Policies/blob/main/docs/branch1.png)
+![](images/branch1.png)
 
 **Branching** is the term used to describe the idea of **deviating** from the default branch.
 Specificaly I'll to focus on project branching with [**GitHub**](https://github.com/).
@@ -48,13 +48,13 @@ Branches don't generate copies of the files from the source, they use commit his
 
 GitHub Desktop has a Dropdown button that allow you to see and change what branch do you want to work in.
 
-![Step1](https://github.com/Osvak/Branching-Policies/blob/main/docs/git1.png)
+![Step1](images/git1.png)
 
 **2. Select the "*New branch*" option**
 
 If the branch is already created, just select the specific branch you want to work in.
 
-![Step2](https://github.com/Osvak/Branching-Policies/blob/main/docs/git2.png)
+![Step2](images/git2.png)
 
 **3. Give an appropriate name to the branch**
 
@@ -67,25 +67,25 @@ users/username/workitem
 ```
 
 
-![Step3](https://github.com/Osvak/Branching-Policies/blob/main/docs/git3.png)
+![Step3](images/git3.png)
 
 **4. Switch the branch you want to work in, here you can also bring the changes to the new branch**
 
 If you already done the changes but forgot to create a branch you can import the changes to the new branch with any problems.
 
-![Step4](https://github.com/Osvak/Branching-Policies/blob/main/docs/git4.png)
+![Step4](images/git4.png)
 
 **5. Publish the new branch to the repository**
 
 Publishing a branch makes it public to the contributors of the project, so now the branch is officialy made.
 
-![Step5](https://github.com/Osvak/Branching-Policies/blob/main/docs/git5.png)
+![Step5](images/git5.png)
 
 **6. Create a Pull Request**
 
 When all the changes are done the branch can be merged, but before doing it you first have to create a pull request, this works as a safety measure, the request must be accepted before it can be merged to the father branch.
 
-![Step6](https://github.com/Osvak/Branching-Policies/blob/main/docs/git6.png)
+![Step6](images/git6.png)
 
 **7. Open the Pull Request**
 
@@ -97,13 +97,13 @@ Also, before opening the request you can also specify who has to review it, who 
 
 To clarify, assignees are the ones who work on specific issues and pull requests. They are sometimes confused as reviewers. They are actually meant to be used with issues rather than pull request so that when we receive a issue we can assign someone to fix it. They are in charge of merging that pull request after getting comments and change requests from other maintainers.
 
-![Step7](https://github.com/Osvak/Branching-Policies/blob/main/docs/git7.png)
+![Step7](images/git7.png)
 
 **8. Merge the Pull Request to the Branch**
 
 In the Pull Request tab you will find all the information abot the request, first you have the Conversation tab where all the communication between reviewers and assignees is found. In the commits tab there are all the Commits that where added to that branch. You can see everything that has been checked in the Checks tab. Finally, in the Files Changed tab there is a log of how each file has changed during the review.
 
-![Step8](https://github.com/Osvak/Branching-Policies/blob/main/docs/git8.png)
+![Step8](images/git8.png)
 
 ## Most used Branching Models
 
