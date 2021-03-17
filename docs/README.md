@@ -188,7 +188,7 @@ Microsoft has stated that they do that because their teams in a day can integrat
 
 # Conclusion
 
-To sum up everything that has been stated so far I would say that each model has its application. 
+To sum up everything that has been stated so far I would say that, using branching policies is a "must" because the small number of Cons its nothing compared the large amount of Pro, try to always use branching, but don' feel forced to use it, experiment by creating a branch in your repository and exploring its possibilities, and test the different models because each one has its application. 
 But my recommendation for the Project 2 subject would be to use one of these 3:
 
 - **Single Branch:** You probably already used it in Project 1, Development and other subjects in the degree, but maybe now you can use it at its true potential. I would focus on the idea of using Feature Flags so the everyone can work at the same time without stepping on other people work.
