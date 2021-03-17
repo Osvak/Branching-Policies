@@ -136,7 +136,7 @@ In the Pull Request tab you will find all the information abot the request, firs
 - Everything is done in the Feature branch, even deployment, in case of a bug the Master branch can be used.
 - Production is also done in the Master branch.
 - Master is always deployable and acts like a safety measure
-- Works very well with Continuous Deployement*
+- Works very well with Continuous Deployment*
 - Clean Commit History
 
 `* Continuous Deployement is a software release process that uses automated testing to validate if changes to a codebase are correct and stable for immediate autonomous deployment to a production environment.`
