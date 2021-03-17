@@ -206,5 +206,6 @@ But my recommendation for the Project 2 subject would be to use one of these 3:
 - [Concept explanation](https://www.atlassian.com/continuous-delivery/continuous-deployment#:~:text=Continuous%20Deployment%20(CD)%20is%20a,cycle%20has%20evolved%20over%20time.)
 - [Branch models (Spanish)](https://www.youtube.com/playlist?list=PLZVwXPbHD1KM5oLAmhz-HHRIMhaOEXku5)
 - [Creative Branching Models for Multiple Release Streams](https://www.youtube.com/watch?v=bCU_D7EHqLg&t=1563s)
+- [Creately](https://creately.com/)
 
 Go [Up](https://osvak.github.io/Branching-Policies/)
