@@ -135,7 +135,7 @@ In the Pull Request tab you will find all the information abot the request, firs
 - Development, Production and Pre-Production environment are found in the Feature branch
 - Everything is done in the Feature branch, even deployment, in case of a bug the Master branch can be used.
 - Production is also done in the Master branch.
-- Master is allways deployable and acts like a safety measure
+- Master is always deployable and acts like a safety measure
 - Works very well with Continuous Deployement*
 - Clean Commit History
 
