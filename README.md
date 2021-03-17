@@ -17,7 +17,7 @@ I'm Òscar Canales, a videogame development student at [CITM](https://www.citm.u
 
 - [Website](https://osvak.github.io/Branching-Policies/) with all the research information
 
-- [Class presentation]() in PDF
+- [Class presentation](https://github.com/Osvak/Branching-Policies/blob/main/docs/Branching%20Policices.pdf) in PDF
 
 ### References
 
